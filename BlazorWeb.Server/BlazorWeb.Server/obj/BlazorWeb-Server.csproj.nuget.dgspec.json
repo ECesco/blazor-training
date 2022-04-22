@@ -1,0 +1,123 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\enzoc\\source\\repos\\blazor-training\\BlazorWeb-Server\\BlazorWeb-Server\\BlazorWeb-Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\enzoc\\source\\repos\\blazor-training\\BlazorWeb-Server\\BlazorWeb-Server\\BlazorWeb-Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\enzoc\\source\\repos\\blazor-training\\BlazorWeb-Server\\BlazorWeb-Server\\BlazorWeb-Server.csproj",
+        "projectName": "BlazorWeb-Server",
+        "projectPath": "C:\\Users\\enzoc\\source\\repos\\blazor-training\\BlazorWeb-Server\\BlazorWeb-Server\\BlazorWeb-Server.csproj",
+        "packagesPath": "C:\\Users\\enzoc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\enzoc\\source\\repos\\blazor-training\\BlazorWeb-Server\\BlazorWeb-Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\enzoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\enzoc\\source\\repos\\blazor-training\\Shared\\BlazorWeb.Domain\\BlazorWeb.Domain.csproj": {
+                "projectPath": "C:\\Users\\enzoc\\source\\repos\\blazor-training\\Shared\\BlazorWeb.Domain\\BlazorWeb.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\enzoc\\source\\repos\\blazor-training\\Shared\\BlazorWeb.Domain\\BlazorWeb.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\enzoc\\source\\repos\\blazor-training\\Shared\\BlazorWeb.Domain\\BlazorWeb.Domain.csproj",
+        "projectName": "BlazorWeb.Domain",
+        "projectPath": "C:\\Users\\enzoc\\source\\repos\\blazor-training\\Shared\\BlazorWeb.Domain\\BlazorWeb.Domain.csproj",
+        "packagesPath": "C:\\Users\\enzoc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\enzoc\\source\\repos\\blazor-training\\Shared\\BlazorWeb.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\enzoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

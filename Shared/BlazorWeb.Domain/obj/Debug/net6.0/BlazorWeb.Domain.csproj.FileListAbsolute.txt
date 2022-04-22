@@ -1,0 +1,12 @@
+C:\Users\enzoc\source\repos\blazor-training\Shared\BlazorWeb.Domain\bin\Debug\net6.0\BlazorWeb.Domain.deps.json
+C:\Users\enzoc\source\repos\blazor-training\Shared\BlazorWeb.Domain\bin\Debug\net6.0\BlazorWeb.Domain.dll
+C:\Users\enzoc\source\repos\blazor-training\Shared\BlazorWeb.Domain\bin\Debug\net6.0\BlazorWeb.Domain.pdb
+C:\Users\enzoc\source\repos\blazor-training\Shared\BlazorWeb.Domain\obj\Debug\net6.0\BlazorWeb.Domain.csproj.AssemblyReference.cache
+C:\Users\enzoc\source\repos\blazor-training\Shared\BlazorWeb.Domain\obj\Debug\net6.0\BlazorWeb.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enzoc\source\repos\blazor-training\Shared\BlazorWeb.Domain\obj\Debug\net6.0\BlazorWeb.Domain.AssemblyInfoInputs.cache
+C:\Users\enzoc\source\repos\blazor-training\Shared\BlazorWeb.Domain\obj\Debug\net6.0\BlazorWeb.Domain.AssemblyInfo.cs
+C:\Users\enzoc\source\repos\blazor-training\Shared\BlazorWeb.Domain\obj\Debug\net6.0\BlazorWeb.Domain.csproj.CoreCompileInputs.cache
+C:\Users\enzoc\source\repos\blazor-training\Shared\BlazorWeb.Domain\obj\Debug\net6.0\BlazorWeb.Domain.dll
+C:\Users\enzoc\source\repos\blazor-training\Shared\BlazorWeb.Domain\obj\Debug\net6.0\refint\BlazorWeb.Domain.dll
+C:\Users\enzoc\source\repos\blazor-training\Shared\BlazorWeb.Domain\obj\Debug\net6.0\BlazorWeb.Domain.pdb
+C:\Users\enzoc\source\repos\blazor-training\Shared\BlazorWeb.Domain\obj\Debug\net6.0\ref\BlazorWeb.Domain.dll
