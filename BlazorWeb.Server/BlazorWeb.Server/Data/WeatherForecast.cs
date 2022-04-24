@@ -1,4 +1,4 @@
-namespace BlazorWeb_Server.Data
+namespace BlazorWeb.Server.Data
 {
     public class WeatherForecast
     {

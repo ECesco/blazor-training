@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "BlazorWeb-Server": {
+    "BlazorWeb.Server": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
