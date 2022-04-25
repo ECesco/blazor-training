@@ -1,0 +1,45 @@
+﻿@using BlazorWeb.Domain
+
+<div class="bg-light border m-4 p-2 col-6" 
+    @onclick="(args) => SelectedUpdate(args, Product.Name)">
+
+    <h4 class="text-secondary">Product - @Product.Id</h4>
+    <input type="checkbox" @onchange="FavouriteUpdate"/> Add to Favorite <br />
+    Name: @Product.Name <br />
+    Show Properties: <input type="checkbox" 
+        @bind=@Product.IsActive
+        @bind:event="oninput"/><br />
+    @if (@Product.IsActive)
+    {
+        <br />
+        <p>Product Properties:</p>            
+        @foreach(var prop in Product.ProductProps)
+        {
+            <p>@prop.Key - @prop.Value</p>
+        }
+    }
+    <br />
+    <_EditDeleteButton IsActive=@Product.IsActive></_EditDeleteButton>
+</div>
+
+@code {
+    [Parameter]
+    public Product? Product { get; set; }
+
+    [Parameter]
+    public EventCallback<bool> OnFavoriteUpdated { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnCardTouched { get; set; }
+
+
+    private async Task FavouriteUpdate(ChangeEventArgs e)
+    {
+        await OnFavoriteUpdated.InvokeAsync((bool)e.Value);
+    }
+
+    private async Task SelectedUpdate(MouseEventArgs e, string productName)
+    {
+        await OnCardTouched.InvokeAsync(productName);
+    }
+}

@@ -23,6 +23,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxhem9yVHJhaW5pbmdcQmluZFByb3AucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/enzoc/source/repos/blazor-training/BlazorWeb.Server/BlazorWeb.Server/Pages/BlazorTraining/DemoProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxhem9yVHJhaW5pbmdcRGVtb1Byb2R1Y3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/enzoc/source/repos/blazor-training/BlazorWeb.Server/BlazorWeb.Server/Pages/BlazorTraining/LearnBlazorComponents/_EditDeleteButton.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxhem9yVHJhaW5pbmdcTGVhcm5CbGF6b3JDb21wb25lbnRzXF9FZGl0RGVsZXRlQnV0dG9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/enzoc/source/repos/blazor-training/BlazorWeb.Server/BlazorWeb.Server/Pages/BlazorTraining/LearnBlazorComponents/_ProductCard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxhem9yVHJhaW5pbmdcTGVhcm5CbGF6b3JDb21wb25lbnRzXF9Qcm9kdWN0Q2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/enzoc/source/repos/blazor-training/BlazorWeb.Server/BlazorWeb.Server/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

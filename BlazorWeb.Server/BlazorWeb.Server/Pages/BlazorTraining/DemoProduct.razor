@@ -1,0 +1,88 @@
+﻿@page "/learnBlazor/DemoProduct"
+
+@using BlazorWeb.Domain;
+
+<h2 class="text-primary">Demo Product</h2>
+<p>Favourites Total: @SelectedFavouriteCount</p>
+<p>Last Selected: @LastSelectedProduct</p>
+<div class="border p-2" style="background-color:azure">
+    <div class="row">
+        @foreach(var product in products)
+        {
+            <_ProductCard Product=product 
+            OnFavoriteUpdated="FavouriteCountUpdate"
+            OnCardTouched="LastSelectedProductUpdate"></_ProductCard>
+        }
+    </div>
+</div>
+
+
+@code {
+
+    List<Product> products = new List<Product>();
+    private int SelectedFavouriteCount { get; set; } = 0;
+    private string LastSelectedProduct { get; set; } = "";
+
+    protected override void OnInitialized()
+    {
+
+        products.Add(new Product()
+            {
+                Id = 1,
+                Name = "Vela",
+                IsActive = false,
+                Price = 12.50,
+                ProductProps = new List<ProductProp>()
+            {
+                new ProductProp(){ Id = 1, Key = "Color", Value ="Azul"},
+                new ProductProp(){ Id = 1, Key = "Origen", Value ="Uruguay"},
+                new ProductProp(){ Id = 1, Key = "Peso", Value ="80g"}
+            }
+            });
+
+        products.Add(new Product()
+            {
+                Id = 2,
+                Name = "Canasto",
+                IsActive = false,
+                Price = 20.88,
+                ProductProps = new List<ProductProp>()
+            {
+                new ProductProp(){ Id = 1, Key = "Color", Value ="Azul"},
+                new ProductProp(){ Id = 1, Key = "Origen", Value ="Canada"},
+                new ProductProp(){ Id = 1, Key = "Peso", Value ="250g"}
+            }
+            });
+
+        products.Add(new Product()
+            {
+                Id = 3,
+                Name = "Pecera",
+                IsActive = false,
+                Price = 120,
+                ProductProps = new List<ProductProp>()
+            {
+                new ProductProp(){ Id = 1, Key = "Color", Value ="N/A"},
+                new ProductProp(){ Id = 1, Key = "Origen", Value ="Brazil"},
+                new ProductProp(){ Id = 1, Key = "Peso", Value ="2500g"}
+            }
+            });
+    }
+
+    protected void FavouriteCountUpdate(bool isSelected)
+    {
+        if (isSelected)
+        {
+            SelectedFavouriteCount ++;
+        }
+        else
+        {
+            SelectedFavouriteCount --;
+        }
+    }
+
+    protected void LastSelectedProductUpdate(string productName)
+    {
+        LastSelectedProduct = productName;
+    }
+}
